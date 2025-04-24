@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: "roboto";
+  }
+
+.superior {
+    background-color: #e4002b;
+    display: flex;
+    align-items: center;
+    padding: auto;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    gap: 45px; 
+    
+  }
+
+.s1  {
+    color: #fafafa;
+    font-weight: bold;
+    padding: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 14px;
+
+  }
+
+.s1:hover {
+    background-color: #f7bc00;
+    color: #fafafa;
+    border-radius: 5px;
+  }
+
+  .video-fondo {
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+  }
+  
+  .video-fondo-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .nombre {
+    background-color: #e4002b;
+    text-align: center;
+    padding: 49px 20px;
+    color: #fafafa;
+  }
+  
+  .imagen {
+    width: 130px;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .sobre-nosotros {
+    background-color: #fafafa;
+    padding: 40px 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333;
+  }
+
+  .fotospizzeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
+    padding: 40px 20px;
+    background-color: #fafafa;
+  }
+  
+  .fotospizzeria img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .fotospizzeria img:hover {
+    transform: scale(1.05);
+  }
+
+  h1{
+    font-family: "great vibes";
+    font-size: 30px;
+  }
+  
+  h2{
+    color: #e4002b;
+  }
+
+  a{
+    position: fixed;
+  }
+
+  .icono-carrito {
+    width: 13px;        
+    height: auto;
+    vertical-align: middle;
+    margin-right: 4px;  
+    filter: brightness(0) invert(1);
+  }
+  
+  .whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .icono-whatsapp {
+    width: 40px;
+    height: 40px;
+    filter: invert(67%) sepia(23%) saturate(429%) hue-rotate(75deg) brightness(97%) contrast(88%);
+  }
+  
